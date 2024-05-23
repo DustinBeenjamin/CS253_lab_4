@@ -1,0 +1,4 @@
+Bugs:
+
+When the user provides a blank entry for a service, it is added to the shopping cart as a blank string with a price of zero. This is because
+the services array has empty strings in the unused positions. Fix this.
